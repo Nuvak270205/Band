@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Phần header -->
+        <div id="header">
+            <ul id="nav">
+                <li class=""><a href="#">HOME</a></li>
+                <li><a href="#band">BAND</a></li>
+                <li><a href="#tour">TOUR</a></li>
+                <li><a href="#contant">CONTACT</a></li>
+                <li>
+                    <a href="#">MORE <i class="nav-arrow-down fa-solid fa-caret-down"></i></a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>                
+                </li>
+            </ul>
+
+            <div class="search-btn">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="js-menu mobile-menu">
+                <i class="menu-icon fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <!-- Phần slider -->
+        <div id="slider">
+            <div class="text-content">
+                <div class="text-heading">Chicago</div>
+                <div class="text-node">Thank you, Chicago - A night we won't forget.</div>
+            </div>
+        </div>
+        <!-- Phần content -->
+        <div id="content">
+            <!-- Phần about -->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="text-image">
+                    <div class="member-item">
+                        <p class="menber-name">Name</p>
+                        <img class="member-image" src="assets/css/img/bandmember.jpg" alt="">
+                    </div>
+                    <div class="member-item">
+                        <p class="menber-name">Name</p>
+                        <img class="member-image" src="assets/css/img/bandmember.jpg" alt="">
+                    </div>
+                    <div class="member-item">
+                        <p class="menber-name">Name</p>
+                        <img class="member-image" src="assets/css/img/bandmember.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Phần tour -->
+            <div id="tour" class="section-tour">
+                <div class="content-section content-tour">
+                    <h2 class="section-heading text-while">TOUR DATES</h2>
+                    <p class="section-sub-heading text-while">Remember to book your tickets!</p>
+                    <br>
+                    <!-- tickets -->
+                    <ul class="tickets-list">
+                        <li>September   <span class="sold-out">Sold out</span></li>
+                        <li>October   <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                    <!-- places -->
+                     <div class="places-list">
+                        <div class="place-item">
+                            <img src="assets/css/img/newyork.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h4 class="place-heading">New York</h4>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="s-full-width place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="places-list">
+                        <div class="place-item">
+                            <img src="assets/css/img/paris.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h4 class="place-heading">Paris</h4>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="s-full-width place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="places-list">
+                        <div class="place-item">
+                            <img src="assets/css/img/sanfran.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h4 class="place-heading">San Francisco</h4>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="s-full-width place-buy-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                     </div>
+                </div>
+            </div>
+            <!-- Phần contact -->
+            <div id="contant" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="contact-list">
+                    <div class="contant-item">
+                        <p class="contant-information"><i class="contant-icon fa-solid fa-location-dot"></i>Chicago, US</p>
+                        <p class="contant-information"><i class="contant-icon fa-solid fa-phone"></i>Phone: <a href="tel:0337362229">0337362229</a></p>
+                        <p class="contant-information"><i class="contant-icon fa-solid fa-envelope"></i>Email: <a href="mailto:duong.703909@gmail.com">duong.703909@gmail.com</a></p>
+                    </div>
+                    <div class="contant-item">
+                        <form action="">
+                            <div class="contant-enter">
+                                <div class="contant-col-tow">
+                                    <div class="contant-first">
+                                        <input type="text" name="" id="" class="text-input" placeholder="Name">
+                                    </div>
+                                    <div class="contant-first">
+                                        <input type="text" name="" id="" class="text-input" placeholder="Email">
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="contant-enter">
+                                <div class="contant-messager">
+                                    <input type="text" name="" id="" class="text-input" placeholder="Message"></input>
+                                </div>
+                            </div>
+                            <div class="contant-enter">
+                                <div class="contant-bnt">
+                                    <button class="s-full-width contant-send-btn">SEND</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Phần footer -->
+        <div id="footer">
+            <div class="footer-img"></div>
+            <div class="footer-social">
+                <p class="footer-item"><i class="footer-icon fa-brands fa-facebook"></i><i class="footer-icon fa-brands fa-instagram"></i><i class="footer-icon fa-brands fa-snapchat"></i><i class="footer-icon fa-brands fa-pinterest-p"></i><i class="footer-icon fa-brands fa-twitter"></i><i class="footer-icon fa-brands fa-linkedin-in"></i></p>
+                <p class="footer-link">Powered by <a class="footer-live" href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close"><i class="js-modal-close close-icon fa-solid fa-times"></i></div>
+            <div class="modal-header"><i class="fas fa-suitcase"></i> <p class="modal-name">Tickets</p></div>
+            <div class="modal-body">
+                <label for="howmany" class="modal-label"><i class="bag-icon fas fa-shopping-cart"></i> Tickets, $15 per person</label>
+                <input type="text" id="howmany" class="text-input" placeholder="How many?">
+                <label for="Send-to" class="modal-label"><i class="fas fa-user-alt"></i> Send To</label> 
+                <input type="text" id="Send-to" class="text-input" placeholder="Enter email"> 
+                <button class="modal-button">PAY<i class="fas fa-check"></i></button>
+            </div>
+            <div class="modal-footer">
+                <p class="modal-help">Need <a href="#">help?</a></p>
+            </div>
+            <div class="claer"></div>
+    </div>
+    <script>
+        // Hàm hiển thị menu
+        const header = document.getElementById('header');
+        const mobileMenu = document.querySelector('.js-menu');
+        const headerHeight = header.clientHeight;
+        //đóng mở mobile menu
+        mobileMenu.onclick = function(){
+            const isClose = header.clientHeight === headerHeight;
+            if(isClose){
+                header.style.height = 'auto';
+            }else{
+                header.style.height = null;
+            }
+        }
+        // tự động đóng khi chọn menu
+        const menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(let i = 0; i < menuItems.length; i++){
+            const menuItem = menuItems[i];
+            menuItem.onclick = function(event){
+                const isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu){
+                    event.preventDefault();
+                }else{
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+    <script>
+        // Hàm mua vé
+        const buyBtns = document.querySelectorAll('.js-buy-ticket');
+        const modal = document.querySelector('.modal');
+        const closeBtn = document.querySelector('.js-modal-close');
+        const modalcontainer = document.querySelector('.js-modal-container');
+        function showByTickets() {
+            modal.classList.add('open');
+        }
+
+        function hideByTickets() {
+            modal.classList.remove('open');
+        }
+
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showByTickets);
+        }
+
+        closeBtn.addEventListener('click', hideByTickets);
+        modal.addEventListener('click', hideByTickets);
+        modalcontainer.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+    </script>
+</body>
+</html>

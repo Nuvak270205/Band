@@ -1,0 +1,90 @@
+@media(max-width: 1023px){
+    .place-buy-btn{
+        padding: 15px 16px;
+        font-size: 15px;
+    }
+    .text-input{
+        padding: 14px;
+    }
+    .contant-send-btn{
+        padding: 15px 16px;
+    }
+    #footer .footer-item{
+        font-size: 36px;
+        gap: 10px;
+    }
+    #footer .footer-link{
+        font-size: 20px;
+    }
+    .contant-information{
+        line-height: 2;
+    }
+}
+@media(min-width: 601px) and (max-width: 1023px){
+    .modal-container{
+        max-width: calc(75%);
+        margin-top: -500px;
+    }
+    #nav .subnav a{
+        padding: 13px 16px;
+    }
+}
+@media(max-width: 600px){
+    .s-full-width{
+        width: 100%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block; /* Đặc biệt cho phần tử đầu tiên */
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li > a{
+        display: block;
+    }
+    #header .search-icon{
+        display: none;
+    }
+    #header .mobile-menu{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: white;
+        padding: 13px 42px;
+    }
+    #content .member-item{
+        display: block;
+        width: 100%;
+    }
+    .places-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .places-list .place-item{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .contant-item{
+        float: none;
+        width: 100%;
+    }
+    .contant-first{
+        float: none;
+        width: 100%;
+        margin-top: 8px;
+    }
+    .modal-container{
+        margin-top: -360px;
+    }
+}
