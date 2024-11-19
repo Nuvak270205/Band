@@ -104,12 +104,13 @@ html{
     right: 0;
 }
 /* Phần slider */
-#slider {
+#slider .slider-image{
     margin-top: 46px;
-    padding-top: 50%;
-    background: url('/web-band/w3_band/assets/css/img/chicago.jpg') no-repeat top center / cover;
+    width: 100%;
+    height: 50%;
+ }
+ #slider .slider-item{
     position: relative;
-
  }
 #slider .text-content{
     position: absolute;
@@ -311,8 +312,8 @@ html{
 }
 
 #footer .footer-img {
-    padding-top: 56.3%;
-    background: url('/web-band/w3_band/assets/css/img/map.jpg') no-repeat top center / cover;
+    width: 100%;
+    height: 57.3%;
 }
 
 #footer .footer-social{
