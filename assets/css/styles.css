@@ -107,7 +107,7 @@ html{
 #slider {
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/project1/w3_band/assets/css/img/chicago.jpg') no-repeat top center / cover;
+    background: url('/web-band/w3_band/assets/css/img/chicago.jpg') no-repeat top center / cover;
     position: relative;
 
  }
@@ -312,7 +312,7 @@ html{
 
 #footer .footer-img {
     padding-top: 56.3%;
-    background: url('/project1/w3_band/assets/css/img/map.jpg') no-repeat top center / cover;
+    background: url('/web-band/w3_band/assets/css/img/map.jpg') no-repeat top center / cover;
 }
 
 #footer .footer-social{
