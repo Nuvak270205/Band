@@ -104,12 +104,18 @@ html{
     right: 0;
 }
 /* Phần slider */
-#slider {
+#slider .slider-image{
     margin-top: 46px;
+<<<<<<< HEAD
     padding-top: 50%;
     background: url('./img/chicago.jpg') no-repeat top center / cover;
+=======
+    width: 100%;
+    height: 50%;
+ }
+ #slider .slider-item{
+>>>>>>> 7af23cd0ecdfd7a5fecd7ec2fbd7bbb02a5b75e3
     position: relative;
-
  }
 #slider .text-content{
     position: absolute;
@@ -312,8 +318,13 @@ html{
 }
 
 #footer .footer-img {
+<<<<<<< HEAD
     padding-top: 56.3%;
     background: url('./img/map.jpg') no-repeat top center / cover;
+=======
+    width: 100%;
+    height: 57.3%;
+>>>>>>> 7af23cd0ecdfd7a5fecd7ec2fbd7bbb02a5b75e3
 }
 
 #footer .footer-social{
