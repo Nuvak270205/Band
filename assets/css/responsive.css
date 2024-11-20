@@ -1,4 +1,4 @@
-@media(max-width: 1023px){
+@media(max-width: 63.9375em){
     .place-buy-btn{
         padding: 15px 16px;
         font-size: 15px;
@@ -20,7 +20,7 @@
         line-height: 2;
     }
 }
-@media(min-width: 601px) and (max-width: 1023px){
+@media(min-width: 46.25em) and (max-width: 63.9375em){
     .modal-container{
         max-width: calc(75%);
         margin-top: -500px;
@@ -29,7 +29,7 @@
         padding: 13px 16px;
     }
 }
-@media(max-width: 600px){
+@media(max-width: 46.1875em){
     .s-full-width{
         width: 100%;
     }

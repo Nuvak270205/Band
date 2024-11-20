@@ -107,7 +107,7 @@ html{
 #slider {
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/web-band/w3_band/assets/css/img/chicago.jpg') no-repeat top center / cover;
+    background: url('./img/chicago.jpg') no-repeat top center / cover;
     position: relative;
 
  }
@@ -126,6 +126,7 @@ html{
 #slider .text-node{
     font-weight: 500;
     font-size: 15px;
+    text-shadow: 0 0 1px black;
 }
 /* Phần content */
 /* phần chung */
@@ -312,7 +313,7 @@ html{
 
 #footer .footer-img {
     padding-top: 56.3%;
-    background: url('/web-band/w3_band/assets/css/img/map.jpg') no-repeat top center / cover;
+    background: url('./img/map.jpg') no-repeat top center / cover;
 }
 
 #footer .footer-social{
